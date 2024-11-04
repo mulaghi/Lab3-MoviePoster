@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity implements PostersListener {
         //Sample Movies
         List<Poster> posterList = new ArrayList<>();
 
-        Poster the100 = new Poster();
-        the100.image = R.drawable.intersteller;
-        the100.name ="123";
-        the100.createdBy = "ABC";
-        the100.rating = 5f;
-        the100.story = "test test Hello Space";
-        posterList.add(the100);
+        Poster Inter = new Poster();
+        Inter.image = R.drawable.intersteller;
+        Inter.name ="123";
+        Inter.createdBy = "ABC";
+        Inter.rating = 5f;
+        Inter.story = "test test Hello Space";
+        posterList.add(Inter);
 
         Poster random1 = new Poster();
         random1.image = R.drawable.wolf;
@@ -59,6 +59,62 @@ public class MainActivity extends AppCompatActivity implements PostersListener {
         idk.rating = 3f;
         idk.story = "test test Hello Aviator";
         posterList.add(idk);
+
+        Poster idk1 = new Poster();
+        idk1.image = R.drawable.idk;
+        idk1.name ="Aviator";
+        idk1.createdBy = "Some Guy";
+        idk1.rating = 3f;
+        idk1.story = "test test Hello Aviator";
+        posterList.add(idk1);
+
+        Poster idk2 = new Poster();
+        idk2.image = R.drawable.idk;
+        idk2.name ="Aviator";
+        idk2.createdBy = "Some Guy";
+        idk2.rating = 3f;
+        idk2.story = "test test Hello Aviator";
+        posterList.add(idk2);
+
+        Poster Inter1 = new Poster();
+        Inter1.image = R.drawable.intersteller;
+        Inter1.name ="123";
+        Inter1.createdBy = "ABC";
+        Inter1.rating = 5f;
+        Inter1.story = "test test Hello Space";
+        posterList.add(Inter1);
+
+        Poster random2 = new Poster();
+        random2.image = R.drawable.wolf;
+        random2.name ="Wolf of Wall Street";
+        random2.createdBy = "Some Guy";
+        random2.rating = 3f;
+        random2.story = "test test Hello Wolf";
+        posterList.add(random2);
+
+        Poster idk7 = new Poster();
+        idk7.image = R.drawable.idk;
+        idk7.name ="Aviator";
+        idk7.createdBy = "Some Guy";
+        idk7.rating = 3f;
+        idk7.story = "test test Hello Aviator";
+        posterList.add(idk7);
+
+        Poster idk8 = new Poster();
+        idk8.image = R.drawable.idk;
+        idk8.name ="Aviator";
+        idk8.createdBy = "Some Guy";
+        idk8.rating = 3f;
+        idk8.story = "test test Hello Aviator";
+        posterList.add(idk8);
+
+        Poster idk9 = new Poster();
+        idk9.image = R.drawable.idk;
+        idk9.name ="Aviator";
+        idk9.createdBy = "Some Guy";
+        idk9.rating = 3f;
+        idk9.story = "test test Hello Aviator";
+        posterList.add(idk9);
 
         final PosterAdapter posterAdapter = new PosterAdapter(posterList, this);
         postersRecycleView.setAdapter(posterAdapter);
